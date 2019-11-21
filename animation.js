@@ -15,13 +15,13 @@ function onMouseMove(event) {
         gsap.to("#right-full-eye",
             { rotation: 0, x: -5, y: 0, duration: 1 });
     }
-    if (event.clientX >= 500 && event.clientX <= 600 && event.clientY < 160) {
+    if (event.clientX >= 480 && event.clientX <= 650 && event.clientY < 200) {
         gsap.to("#left-full-eye",
             { rotation: 0, x: 0, y: -5, duration: 1 });
         gsap.to("#right-full-eye",
             { rotation: 0, x: 0, y: -5, duration: 1 });
     }
-    if (event.clientX >= 500 && event.clientX <= 600 && event.clientY > 160) {
+    if (event.clientX >= 480 && event.clientX <= 650 && event.clientY > 200) {
         gsap.to("#left-full-eye",
             { rotation: 0, x: 0, y: 5, duration: 1 });
         gsap.to("#right-full-eye",

@@ -1,0 +1,22 @@
+{
+  "name": "svg-animation-example",
+  "version": "1.0.0",
+  "description": "Little monster svg animation",
+  "main": "animation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleobulo/svg-animation-example.git"
+  },
+  "author": "Cleobulo Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cleobulo/svg-animation-example/issues"
+  },
+  "homepage": "https://github.com/cleobulo/svg-animation-example#readme",
+  "dependencies": {
+    "gsap": "^3.0.1"
+  }
+}
