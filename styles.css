@@ -5,11 +5,35 @@ body {
     height: 100% !important;
     min-height: 100% !important;
     background-color: aliceblue;
+    overflow: hidden;
 }
 
 .area {
     height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #232323;
+    padding: 1%;
+}
+
+.logo {
+    width: 100%;
+    display: block;
+}
+
+.github {
+    float: right;
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+.github:hover {
+    color: #fff;
 }
 
 svg {
