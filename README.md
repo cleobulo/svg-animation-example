@@ -10,4 +10,4 @@ Some pratice with SVG and animations.
 
 Have fun!
 
-![Little monster](little_monster.svg =100x150)
+![Little monster](little_monster.svg){: height="150px" width="100px"}
