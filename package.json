@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cleobulo/svg-animation-example#readme",
   "dependencies": {
-    "gsap": "^3.0.1"
+    "gsap": "^3.6.0"
   }
 }
